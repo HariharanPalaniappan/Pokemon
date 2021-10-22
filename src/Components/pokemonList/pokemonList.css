@@ -1,0 +1,22 @@
+.List {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.List p {
+  flex-basis: 33.33%;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: capitalize;
+  background-color: #3761a8;
+  color: #feca1b;
+  border: 1px solid #feca1b;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+}
+.List p:hover {
+  background: #feca1b;
+  color: #3761a8;
+  border-color: #3761a8;
+}

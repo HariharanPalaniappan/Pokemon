@@ -1,0 +1,26 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+.view-all-pokemon {
+  width: 100%;
+  height: 100vh;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-all-pokemon button {
+  border: 5px solid #feca1b;
+  background: #3761a8;
+  color: #feca1b;
+  padding: 35px 70px;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+}
+.view-all-pokemon button:hover {
+  border-color: #3761a8;
+  background: #feca1b;
+  color: #3761a8;
+}
